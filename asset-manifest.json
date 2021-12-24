@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/cars-demo/static/css/main.688e215d.chunk.css",
+    "main.js": "/cars-demo/static/js/main.627740ec.chunk.js",
+    "main.js.map": "/cars-demo/static/js/main.627740ec.chunk.js.map",
+    "runtime-main.js": "/cars-demo/static/js/runtime-main.44f255a6.js",
+    "runtime-main.js.map": "/cars-demo/static/js/runtime-main.44f255a6.js.map",
+    "static/css/2.d9602c05.chunk.css": "/cars-demo/static/css/2.d9602c05.chunk.css",
+    "static/js/2.22bc3089.chunk.js": "/cars-demo/static/js/2.22bc3089.chunk.js",
+    "static/js/2.22bc3089.chunk.js.map": "/cars-demo/static/js/2.22bc3089.chunk.js.map",
+    "index.html": "/cars-demo/index.html",
+    "static/css/2.d9602c05.chunk.css.map": "/cars-demo/static/css/2.d9602c05.chunk.css.map",
+    "static/css/main.688e215d.chunk.css.map": "/cars-demo/static/css/main.688e215d.chunk.css.map",
+    "static/js/2.22bc3089.chunk.js.LICENSE.txt": "/cars-demo/static/js/2.22bc3089.chunk.js.LICENSE.txt",
+    "static/media/adress.ce465ffc.svg": "/cars-demo/static/media/adress.ce465ffc.svg",
+    "static/media/auto1.6c248801.jpg": "/cars-demo/static/media/auto1.6c248801.jpg",
+    "static/media/auto2.66c48154.jpg": "/cars-demo/static/media/auto2.66c48154.jpg",
+    "static/media/auto3.a25f4aee.jpg": "/cars-demo/static/media/auto3.a25f4aee.jpg",
+    "static/media/camioneta1.b914f1c5.png": "/cars-demo/static/media/camioneta1.b914f1c5.png",
+    "static/media/camioneta2.70f465df.png": "/cars-demo/static/media/camioneta2.70f465df.png",
+    "static/media/camioneta3.dcf91bae.jpg": "/cars-demo/static/media/camioneta3.dcf91bae.jpg",
+    "static/media/car.1bb9c6dd.svg": "/cars-demo/static/media/car.1bb9c6dd.svg",
+    "static/media/contact.css": "/cars-demo/static/media/city.cabae228.jpg",
+    "static/media/ingresar.css": "/cars-demo/static/media/city2.2694b0a4.jpg",
+    "static/media/email.101054a1.svg": "/cars-demo/static/media/email.101054a1.svg",
+    "static/media/facebook.3f7115f9.svg": "/cars-demo/static/media/facebook.3f7115f9.svg",
+    "static/media/google.bbce75f8.svg": "/cars-demo/static/media/google.bbce75f8.svg",
+    "static/media/icon.1bd04d4e.svg": "/cars-demo/static/media/icon.1bd04d4e.svg",
+    "static/media/login.2143849c.svg": "/cars-demo/static/media/login.2143849c.svg",
+    "static/media/moto1.8fe5d330.jpg": "/cars-demo/static/media/moto1.8fe5d330.jpg",
+    "static/media/moto2.ca20599f.jpg": "/cars-demo/static/media/moto2.ca20599f.jpg",
+    "static/media/moto3.51e97593.jpg": "/cars-demo/static/media/moto3.51e97593.jpg",
+    "static/media/register.css": "/cars-demo/static/media/paisaje.6037c58b.jpg",
+    "static/media/phone.7fe63fa2.svg": "/cars-demo/static/media/phone.7fe63fa2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44f255a6.js",
+    "static/css/2.d9602c05.chunk.css",
+    "static/js/2.22bc3089.chunk.js",
+    "static/css/main.688e215d.chunk.css",
+    "static/js/main.627740ec.chunk.js"
+  ]
+}
