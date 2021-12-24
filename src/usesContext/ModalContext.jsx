@@ -8,7 +8,6 @@ export const ContextModal = ({ children }) => {
   const [modalName, setModalName] = useState(false);
   const [modalYears, setModalYears] = useState(false);
   const [modalColors, setModalColors] = useState(false);
-  const [modalConsultAuto, setMmodalConsultAuto] = useState(false);
 
   // const showModal = () => {
   //   setModalOpen(!modalOpen);
@@ -25,23 +24,16 @@ export const ContextModal = ({ children }) => {
   const showModalColors = () => {
     setModalColors(!modalColors);
   };
-  const showModalConsultAuto = () => {
-    setMmodalConsultAuto(!modalConsultAuto);
-  };
 
   const modalReturns = {
-    // showModal,
     showModalMarcas,
     showModalName,
     showModalYears,
     showModalColors,
-    showModalConsultAuto,
-    // modalOpen,
     modalMarcas,
     modalName,
     modalYears,
     modalColors,
-    modalConsultAuto,
   };
 
   return (

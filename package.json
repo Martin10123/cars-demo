@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Martin10123.github.io/auto-cars",
-  "name": "auto-cars",
+  "homepage": "https://Martin10123.github.io/cars-demo",
+  "name": "cars-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

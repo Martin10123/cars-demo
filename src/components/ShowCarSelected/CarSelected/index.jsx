@@ -1,5 +1,4 @@
-import React, { useContext, useMemo } from "react";
-import ModalContext from "../../../usesContext/ModalContext";
+import React, { useMemo, useState } from "react";
 import { useParams } from "react-router";
 import { Carousel } from "react-responsive-carousel";
 
@@ -11,7 +10,11 @@ import "./cardSelect.css";
 import ModalQuestionAuto from "../../../Modals/ModalConsultAuto";
 
 const CardSelect = () => {
-  const { modalConsultAuto, showModalConsultAuto } = useContext(ModalContext);
+  const [modalConsultAuto, setMmodalConsultAuto] = useState(false);
+
+  const showModalConsultAutoOn = () => {
+    setMmodalConsultAuto(true);
+  };
 
   const { name } = useParams();
   const car = useMemo(() => getHeroByID(name), [name]);
@@ -31,14 +34,16 @@ const CardSelect = () => {
               <h2>{car.Precio}</h2>
               <p className="card_select__description">{car.Description}</p>
               <div className="card_select__btn">
-                <button onClick={showModalConsultAuto}>Consultar Auto</button>
+                <button onClick={showModalConsultAutoOn}>Consultar Auto</button>
               </div>
             </div>
           </div>
           <Table />
         </div>
       </div>
-      {modalConsultAuto && <ModalQuestionAuto />}
+      {modalConsultAuto && (
+        <ModalQuestionAuto setMmodalConsultAuto={setMmodalConsultAuto} />
+      )}
     </>
   );
 };

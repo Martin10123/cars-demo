@@ -18,6 +18,13 @@
   align-items: center;
 }
 
+.modal_error {
+  font-size: 1.4rem;
+  background: red;
+  color: white;
+  padding: 1rem;
+}
+
 .modal_question__info {
   width: 100%;
   background: white;
