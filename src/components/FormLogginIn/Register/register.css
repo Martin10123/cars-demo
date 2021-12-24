@@ -1,0 +1,149 @@
+.container_register {
+  min-height: 100vh;
+  background: #000;
+}
+
+.box_register {
+  background-color: #ffffff00;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px 25px;
+  border-radius: 17px;
+}
+
+.btn_register_close {
+  position: absolute;
+  right: 0.5rem;
+  color: #ffffff;
+}
+
+.box_register h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.inputs_register {
+  padding: 32px 0;
+}
+
+.span_register_inputs {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.input_box {
+  padding: 10px 0;
+}
+
+form .input_box input {
+  width: 100%;
+  height: 55px;
+  border-bottom-color: cyan;
+  border-radius: 7px;
+  font-size: 19px;
+  padding: 0 0 0 15px;
+}
+
+form .input_box input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.checked_genero {
+  padding: 0 0 33px 0;
+}
+
+.checked_genero select {
+  -webkit-appearance: none;
+  height: 55px;
+  border-radius: 12px;
+  font-size: 19px;
+  padding: 0 0 0 15px;
+}
+
+.box_btn_register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_register {
+  width: 63%;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  background: #ffffff33;
+}
+
+.box_end {
+  padding: 20px 0;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.box_end > a p {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 3px 0;
+}
+
+@media screen and (min-width: 750px) {
+  .container_register {
+    position: relative;
+    padding: 50px 100px 0;
+    background-image: url(../../../Images/logginIn/paisaje.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn_register_close {
+    top: 3rem;
+    right: 10.5rem;
+  }
+
+  .inputs_register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .first_inputs {
+    width: 48%;
+  }
+
+  .span_register_inputs {
+    font-size: 24px;
+    padding: 20px 0px;
+  }
+
+  .input_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checked_genero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .checked_genero select {
+    width: 351px;
+  }
+
+  .button_register {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+}

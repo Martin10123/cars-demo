@@ -1,0 +1,227 @@
+.navbar {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__content {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 39%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.hamburger {
+  padding: 1rem;
+}
+
+.navbar__content_img {
+  width: 200px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__content_img img {
+  width: 60px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.navbar__content_img p {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+/*__________________________ */
+
+.navbar__content_form_list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  padding-top: 1.2rem;
+  position: absolute;
+  top: 7rem;
+  z-index: 83928342;
+}
+
+.oculto {
+  transform: translate(-40rem, 0rem);
+  transition: 2s ease-in-out;
+}
+
+.active {
+  transform: translate(0rem, 0rem);
+  transition: 1s ease-in-out;
+}
+
+.loguin__menu {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.loguin__menu p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.form_mobile {
+  display: flex;
+  align-items: center;
+}
+
+.form_mobile > input {
+  width: 17rem;
+  height: 3rem;
+  border-radius: 1.3rem 0 0 1.3rem;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.form_mobile > button {
+  height: 3rem;
+  border-radius: 0 1.3rem 1.3rem 0;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: dimgray;
+}
+
+.navbar__content_list {
+  width: 100%;
+  height: 100%;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__content_list ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar__content_list ul li {
+  padding: 3rem;
+  font-size: 1.6rem;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@media (min-width: 600px) and (max-width: 1700px) {
+  .oculto {
+    transform: translate(-115rem, 0rem);
+  }
+}
+
+@media (min-width: 1700px) {
+  div.navbar__content {
+    display: flex;
+    align-items: center;
+    background: black;
+    border-bottom: 1px solid white;
+  }
+
+  .navbar__content_img p {
+    font-size: 1.4rem;
+  }
+
+  .icon {
+    width: 40%;
+    background: black;
+  }
+
+  .navbar__content_img {
+    width: 62%;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .navbar__content_img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .loguin__menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navbar__content_form_list {
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    position: initial;
+  }
+
+  .form_mobile {
+    width: 45%;
+  }
+
+  .form_mobile > input {
+    width: 21rem;
+    height: 2rem;
+    border-radius: 0px;
+    outline: none;
+  }
+
+  .form_mobile > input:focus {
+    border-bottom: 3px solid rgb(74, 74, 238);
+  }
+
+  .form_mobile > button {
+    width: 3rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .navbar__content_list {
+    width: 47%;
+    padding: 0;
+  }
+
+  .navbar__content_list ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar__content_list ul li {
+    padding: 0;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar__content_list ul li:hover {
+    text-decoration: underline;
+  }
+
+  .oculto {
+    transform: translate(0rem, 0rem);
+    transition: none;
+  }
+}

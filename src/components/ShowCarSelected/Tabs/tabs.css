@@ -1,0 +1,140 @@
+.tabs_sizes {
+  background-color: black;
+  padding: 3rem 0;
+  margin: 1rem 0 0 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.box_of_tabs {
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.mini_box_tabs {
+  width: 100%;
+  height: 100%;
+}
+
+.container_tabs_simple {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  width: 50%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  background: #ffffff33;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: #c3c3c3;
+  color: #000;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -0.313rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 0.313rem;
+  background: rgb(242, 217, 246);
+}
+
+button {
+  border: none;
+}
+
+.content-tabs {
+  flex-grow: 1;
+  color: #fff;
+}
+
+.content {
+  padding: 1.25rem;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 0.313rem 0px;
+}
+
+.content hr {
+  width: 100%;
+  height: 0.125rem;
+  background: #222;
+  margin-bottom: 0.313rem;
+}
+
+.active-content {
+  display: block;
+}
+
+.li_tabs {
+  font-size: 1.313rem;
+  padding: 0 4.563rem 0.438rem 0;
+}
+
+li.li_tabs:nth-child(1) {
+  font-size: 1.938rem;
+}
+
+.paragraph__tabs {
+  height: 17rem;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.paragraph__tabs::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+.paragraph__tabs::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+@media (min-width: 1600px) {
+  .tabs_sizes {
+    border-bottom: 0px solid black;
+  }
+
+  .box_of_tabs {
+    padding: 2.188rem;
+  }
+
+  .container_tabs_simple {
+    height: 21.688rem;
+  }
+
+  .tabs {
+    padding: 0.938rem;
+    font-size: 1.3rem;
+  }
+}
