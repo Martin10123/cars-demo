@@ -55,6 +55,9 @@ const ModalQuestionAuto = ({ setMmodalConsultAuto }) => {
     <div className="modal_question__box">
       <div className="modal_question__content">
         <div className="modal_question__info">
+          <div className="modal_question__btn_close_modal">
+            <button onClick={() => setMmodalConsultAuto(false)}>X</button>
+          </div>
           <h1 className="title_consult_modal pad_bot">Consultar Auto</h1>
           <h2 className=" title_contri_modal pad_bot">Cartagena - Colombia</h2>
           <form className="modal_question__form">

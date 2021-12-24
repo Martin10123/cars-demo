@@ -78,8 +78,6 @@ export const AppChangeContext = ({ children }) => {
 
   let newCar = changeState();
 
-  console.log(type);
-
   const allReturns = {
     nameCar,
     initialState,
